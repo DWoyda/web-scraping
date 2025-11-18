@@ -69,39 +69,37 @@ API limit reached at index (index_number) for ("movie_name")
 ## Output example
 Each movie record is stored as a dictionary
 ```python
-{
-        "title": "Snow White and the Seven Dwarfs",
+ {
+        "title": "Pinocchio",
         "Directed by": [
-            "Perce Pearce",
-            "William Cottrell",
-            "Larry Morey",
+            "Ben Sharpsteen",
+            "Hamilton Luske",
+            "Bill Roberts",
+            "Norman Ferguson",
+            "Jack Kinney",
             "Wilfred Jackson",
-            "Ben Sharpsteen"
+            "T. Hee"
         ],
         "Story by": [
             "Ted Sears",
-            "Richard Creedon",
             "Otto Englander",
-            "Dick Rickard",
-            "Earl Hurd",
-            "Merrill De Maris",
-            "Dorothy Ann Blank",
-            "Webb Smith"
+            "Webb Smith",
+            "William Cottrell",
+            "Joseph Sabo",
+            "Erdman Penner",
+            "Aurelius Battaglia"
         ],
         "Based on": [
-            "\"",
-            "Snow White",
-            "\"",
-            "by the",
-            "Brothers Grimm"
+            "The Adventures of Pinocchio",
+            "by",
+            "Carlo Collodi"
         ],
         "Produced by": [
             "Walt Disney"
         ],
         "Music by": [
-            "Frank Churchill",
             "Leigh Harline",
-            "Paul Smith"
+            "Paul J. Smith"
         ],
         "Production company": [
             "Walt Disney Productions"
@@ -110,7 +108,7 @@ Each movie record is stored as a dictionary
             "RKO Radio Pictures"
         ],
         "Running time": [
-            "83 minutes"
+            "88 minutes"
         ],
         "Country": [
             "United States"
@@ -119,27 +117,28 @@ Each movie record is stored as a dictionary
             "English"
         ],
         "Budget": [
-            "$1.5 million"
+            "$2.6 million"
         ],
         "Box office": [
-            "$418 million"
+            "$164 million"
         ],
-        "Running time (int)": 83,
-        "Budget (float)": 1500000.0,
-        "Box office (float)": 418000000.0,
+        "Running time (int)": 88,
+        "Budget (float)": 2600000.0,
+        "Box office (float)": 164000000.0,
         "Release date": [
-            "December 21, 1937 ( Carthay Circle Theatre )",
-            "February 4, 1938 (United States)"
+            "February 7, 1940 ( Center Theatre )",
+            "February 23, 1940 (United States)"
         ],
-        "Release date (datetime)": "1937-12-21T00:00:00",
-        "imdb": "7.6",
-        "metascore": "96",
-        "rotten_tomatos": null,
+        "Release date (datetime)": "1940-02-07T00:00:00",
+        "imdb": "7.5",
+        "metascore": "99",
+        "rotten_tomatos": "100%",
         "genres": [
             "Animation",
             "Adventure",
-            "Family"
+            "Comedy"
         ]
+    },
 ```
 ---
 ## Next steps
